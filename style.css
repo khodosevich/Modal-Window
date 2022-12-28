@@ -59,6 +59,9 @@ a {
    
 
 }
+.modal.open {
+    display: block;
+}
 
 .main-header-style{
 

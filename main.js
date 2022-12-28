@@ -1,14 +1,6 @@
+let modal = document.getElementById("mymodal");
+let btn = document.getElementById("btn");
 
-var modal = document.getElementById("mymodal");
-var btn = document.getElementById("btn");
-
-
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+btn.addEventListener('click', () => {
+  modal.classList.add('open')
+})

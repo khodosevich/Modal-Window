@@ -1,6 +1,10 @@
 let modal = document.getElementById("mymodal");
-let btn = document.getElementById("btn");
+let btns = document.querySelectorAll(".btn");
 
-btn.addEventListener('click', () => {
-  modal.classList.add('open')
+btns.forEach(element =>{
+
+  element.addEventListener('click', () => {
+    modal.classList.toggle('open')
+  })
+
 })

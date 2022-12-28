@@ -63,6 +63,40 @@ a {
     display: block;
 }
 
+
+.--cross {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;   
+    height: 50px;
+    
+  }
+  
+.--cross:hover,
+.--cross:focus {
+    color: black;
+    background-color: rgb(189, 235, 116);
+    cursor: pointer;
+  }
+
+
+.btn-close{
+
+    background-color: rgb(255, 0, 0);
+    height: 150px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    
+  }
+
+
+
+
 .main-header-style{
 
     width: 100%;
@@ -79,6 +113,7 @@ a {
 
 
 }
+
 
 
 .info-main-style{
